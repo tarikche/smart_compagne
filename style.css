@@ -1,0 +1,150 @@
+html{
+              
+    color: white;
+    font-family:monospace;
+    scroll-behavior: smooth;
+}
+body{
+    padding: 0%;
+    margin: 0%;
+    background-color: #f7f7f2;
+    gap: 0px;
+    
+    background-size: cover;
+}
+
+#p1{
+    background-image: url('csaba-talaber-pByF6_USbuc-unsplash.jpg');
+    background-size:100%;
+    background-repeat: no-repeat;
+    margin-top: 0%;
+    
+}
+#navbar{
+    display: flex;
+    padding-top:70px;
+    justify-content:center;
+    color: white;
+    gap: 80px;
+    MAX-height:     18px;
+    align-items: center;
+
+
+}
+nav a{
+    font-size: 18px;
+    text-decoration: none;
+    color:white;
+    font-weight: 500;
+    text-transform: uppercase;
+    border-bottom:3px solid #f7f7f2 ;
+    transition: ease-out .5s;
+    letter-spacing: 2px;
+}
+
+nav a:hover{
+    border-bottom:3px solid #1b9aaa ;
+}
+
+#cv{
+    border-radius: 3px;
+    padding: 5px 25px  ;
+}
+#sign-in{
+    border :3px white solid ;
+    border-radius: 3px;
+    padding: 5px 25px  ;
+
+}
+
+
+
+
+main{
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+
+
+
+
+
+ #savoir-plus{
+    margin-top: 5px;
+    background-color: rgb(0, 79, 0);;
+    color: white;
+    width: 130px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+    opacity: 0.8;
+    font-size:  18px;
+    text-decoration: none;
+}
+ #savoir-plus:hover {
+     opacity :1;
+     
+ }
+
+
+/* @keyframes  show {
+    from { color: white;
+
+    }
+    to {
+        color:#093d5d;
+    }
+
+} */
+
+
+#welcome-page{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    flex: center;
+    margin-left: 7%;
+    margin-right: 0%;
+    align-items: left;
+    padding-top: 150px;
+    
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 80px;
+    margin-top:20px ;
+    margin-bottom: 0px;
+    max-width: 70%;
+    line-height: 90%;
+
+}
+
+h3{
+    font-size: 70px;
+    color:rgb(194, 255, 194);
+    margin: 0%;
+}
+
+#discription { width: 60%;
+    font-size: 18px;
+    padding: 0%;
+    margin: 0%;
+
+}
+
+#p2{
+    height: 100vh;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+#ferme{
+    font-size: 100px;
+    text-align: center;
+    color:rgb(0, 79, 0)
+}

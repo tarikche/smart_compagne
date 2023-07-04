@@ -1,0 +1,49 @@
+html{
+    background-image: url('gozha-net-xDrxJCdedcI-unsplash.jpg');
+    background-size:100%;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 30px;
+
+
+
+}
+h1{
+    font-size: 80px;
+    padding: 0%;
+}
+
+form{
+    display: flex;
+    
+    flex-direction:column;
+    justify-content: space-between;
+    align-items: center;
+    width:400px;
+    height: 300px;
+    gap: 20px;
+}
+
+b{
+    font-size: 40px;
+}
+.input{
+    padding: 15px;
+    width: 100%;
+    
+    color:black;
+}
+
+.login{
+    background-color: rgb(77, 37, 0);
+    padding: 10px;
+    width: 50%;
+    color:white;
+    margin-top:25px ;
+    font-size: 17px;
+    letter-spacing: 2px;
+
+}
